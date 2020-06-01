@@ -1,0 +1,105 @@
+*{
+    background-color:grey;
+    font-size: 16px;
+}
+
+h1 {
+  margin-top: 48px;
+  font-size: 60px;
+  color: purple;
+  /* outline-color: rebeccapurple; */
+  text-shadow: 4px 4px 5px red;
+  text-align: center;
+
+  }
+
+#wholepage{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pagewrapper{
+    border: 1px black solid;
+}
+
+a.button1 {
+
+    display:left;
+    padding:0.35em 1.2em;
+    border:0.4em solid purple;
+    margin:0 0.3em 0.3em 
+    border-radius:0.12em;
+    box-sizing: border-box;
+    width: 100px;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font: weight 400;
+    color: whitesmoke;
+    /* text-align:center; */
+    transition: all 0.2s;
+    }
+    
+    a.button1:hover{
+    color: whitesmoke;
+    background-color:purple;
+    }
+    
+    a.button1 {
+    display:inline-block;
+    margin:0.4em auto;
+    }
+
+/* inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid purple;
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* padding and width stays in place */
+    background-color: white;
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    /* margin-left: 150px;
+    margin-right: 250px; */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+  }
+  
+  /* submit button with a specific background color etc */
+  .input[type=submit] {
+    background-color: purple;
+    color: whitesmoke;
+    padding: 12px 20px;
+    border: none;
+    box-shadow: 10px 10px 5px whitesmoke;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: whitesmoke
+  }
+  
+  /* background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: purple;
+  }
+
+  #fname, #email, #subject{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 14px;
+      color:purple;
+  }
+  
+  #submit{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      color: whitesmoke ;
+  }

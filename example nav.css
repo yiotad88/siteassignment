@@ -1,0 +1,87 @@
+.nav li {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+.nav a {
+ display:inline-block;
+ padding:0.35em 1.2em;
+ border:0.1em solid #FFFFFF;
+ margin:0 0.3em 0.3em 0;
+ border-radius:0.12em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:#FFFFFF;
+ text-align:center;
+}
+
+.nav a:hover {
+ color:#000000;
+ background-color:#FFFFFF;
+}
+
+/*--- DROPDOWN ---*/
+.nav ul {
+ color:#FFFFFF; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+    list-style: none;
+    position: absolute;
+    left: -9999px; /* Hide off-screen when not needed (this is more accessible than display: none;) */
+}
+.nav ul li {
+    padding-top: 1px; /* Introducing a padding between the li and the a give the illusion spaced items */
+    float: none;
+}
+.nav ul a {
+    white-space: nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+.nav li:hover ul { /* Display the dropdown on hover */
+    left: 0; /* Bring back on-screen when needed */
+}
+
+.nav li:hover ul a { /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+    text-decoration: none;
+}
+.nav li:hover ul li a:hover { /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+ background-color: #FFFFFF;
+
+} 
+
+/* onemore */
+/* #verticalnav */
+.nav {
+    list-style: none;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    float: none; 
+    width: 100%;
+    position: vertical;
+    z-index: 5;
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+   
+}
+
+.vertical-menu {
+ width: 200px;
+}
+
+.vertical-menu a {
+ background-color:grey;
+ color:purple;
+ display: block;
+ padding: 12px;
+ text-decoration: none;
+}
+
+.vertical-menu a:hover {
+ background-color: #ccc;
+}
+
+.vertical-menu a.active {
+ background-color:purple;
+ color: whitesmoke;
+}

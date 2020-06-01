@@ -1,0 +1,120 @@
+
+
+*{
+    background-color: grey;
+    font-size: 14px;
+}
+*{ 
+    property: value;
+    property: value;
+}
+
+ 
+.box-purple{
+    background: purple;
+    padding: 2em;
+    width: 700px;
+    height: 500px;
+    float: left;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 1282px;
+    border: 3px dashed purple;
+    padding: 35px
+   }
+
+
+
+.content-box{
+background-color: purple;
+font-size: medium;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: 20px;
+margin-left: 20px;
+line-height: -10px;
+}
+
+
+.profile-box2{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -57px;
+    height: 50px;
+    width: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke; font-size: x-large;
+    font-weight: 300;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 25px
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.55em;
+    padding: 0 2em;
+    color: whitesmoke;
+  }
+
+
+a.button1 {
+
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.4em solid purple;
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font: weight 400;
+color: whitesmoke;
+text-align:center;
+transition: all 0.2s;
+}
+
+a.button1:hover{
+
+color: whitesmoke;
+background-color:purple;
+
+    }
+
+@media all and (max-width:30em){
+
+a.button1 {
+display:block;
+margin:0.4em auto;
+
+{
+
+    .box {
+        width:100px;
+        height:100px;
+    }
+
